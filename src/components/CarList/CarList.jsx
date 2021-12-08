@@ -20,7 +20,7 @@ const CarList = () => {
         return (
           <Car
             key={i}
-            name={values.name}
+            name={values.Name}
             picture={values.PictureURL}
             category={values.Features2.category}
             vehGroup={values.VehGroup}

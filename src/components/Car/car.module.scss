@@ -1,0 +1,160 @@
+.car {
+  padding-block: 1.5rem;
+  padding-inline: 1.5rem 3rem;
+  background-color: #ffffff;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  gap: 40px;
+
+  .car__top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    gap: 70px;
+    align-items: center;
+
+    img {
+      max-width: 300px;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    .car__top__btn {
+      border: none;
+      background-color: var(--accent);
+      padding: 0.9rem 0.5rem;
+      border-radius: 15px;
+      color: #ffeee8;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+
+      i {
+        font-size: 1rem;
+        margin-right: 10px;
+      }
+    }
+
+    .car__top__btn:hover {
+      background-color: var(--dark);
+    }
+  }
+
+  .car__bottom {
+    padding-inline: 1.5rem;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    /* gap: 24%; */
+
+    .car__bottom__characteristics {
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+          font-size: 0.8rem;
+
+          i {
+            margin-right: 10px;
+            color: var(--accent) !important;
+          }
+        }
+      }
+    }
+
+    .car__bottom__rates {
+      width: 100%;
+
+      .rates__rateData {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #e3e3e3;
+        padding-block: 15px;
+
+        input[type="checkbox"] {
+          -webkit-appearance: none;
+          border: 1px solid #cacece;
+          padding: 9px;
+          border-radius: 20px;
+          display: inline-block;
+          position: relative;
+          margin-right: 10px;
+        }
+
+        input[type="checkbox"]:active {
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+            inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="checkbox"]:checked::after {
+          content: "\2714";
+          font-size: 10px;
+          position: absolute;
+          top: 2px;
+          left: 5px;
+          color: var(--accent);
+        }
+
+        p{
+            font-size: .8rem;
+        }
+
+        .rateData__info{
+            font-weight: 500;
+            color: var(--muted)
+        }
+
+        .rateData__inclusions{
+            font-weight: 500;
+            color: var(--accent);
+            cursor: pointer;
+        }
+
+        .rateData__total{
+            font-weight: 500;
+            color: var(--accent);
+
+            span{
+                font-size: 1.5rem;
+                font-weight: 800;
+                margin-left: 3px;
+            }
+        }
+      }
+    }
+  }
+}
+
+//Global (Component level)
+h5 {
+  text-transform: uppercase;
+  color: var(--light);
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}

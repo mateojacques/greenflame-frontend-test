@@ -1,0 +1,109 @@
+{
+    "Name": "Kia Rio or similar",
+    "AirConditionInd": "true",
+    "Code": "ECAR",
+    "TransmissionType": "Automatic",
+    "VehType": "1",
+    "VehClass": "3",
+    "VehGroup": "A",
+    "PictureURL": "https://www.avis.com/content/dam/cars/l/2020/kia/2020-kia-rio-s-sedan-grey_featured.png",
+    "Features": "Smoke Free|4 Doors|5 Seats|Radio|Air Bag|Air Conditioning|Automatic|Holds 1 large, 1 small Suitcases|27-35 mpg|image=2020-kia-rio-s-sedan-grey.png|thumb=2020-kia-rio-s-sedan-grey.png|cargroup=A|category=Economy",
+    "Features2": {
+        "doors": "4",
+        "seats": "5",
+        "air": "Air Conditioning",
+        "transmition": "Automatic",
+        "largeSuitcase": "1",
+        "smallSuitcase": "1",
+        "thumb": "2020-kia-rio-s-sedan-grey.png",
+        "category": "Economy"
+    },
+    "Rates": {
+        "AR": {
+            "CurrencyCode": "R$",
+            "RateData": {
+                "name": "Most Inclusive",
+                "inclusions": [
+                    "Unlimited mileage",
+                    "LDW – Loss Damage Waiver",
+                    "TPL – Third Party Liability",
+                    "Airport surcharge",
+                    "Local and state TAX",
+                    "Tank of gas",
+                    "GPS - Satellite Navigator",
+                    "RSN - Roadside assistance",
+                    "First additional driver"
+                ]
+            },
+            "RateTotalAmount": 3405.1056281100005,
+            "EstimatedTotalAmount": 3405.1056281100005,
+            "irrf": 574.610531495625,
+            "EstimatedTotalAmountPrepaid": 2758.130551179
+        },
+        "F2": {
+            "CurrencyCode": "R$",
+            "RateData": {
+                "name": "Inclusive + Gas",
+                "inclusions": [
+                    "Unlimited kilometers",
+                    "LDW – Loss Damage Waiver",
+                    "TPL – Third Party Liability",
+                    "Airport surcharge",
+                    "Local and state TAX",
+                    "Tank of gas",
+                    "First additional driver"
+                ]
+            },
+            "RateTotalAmount": 2599.4956608,
+            "EstimatedTotalAmount": 2599.4956608,
+            "irrf": 438.66489276000004,
+            "EstimatedTotalAmountPrepaid": 2105.591485248
+        },
+        "H8": {
+            "CurrencyCode": "R$",
+            "RateData": {
+                "name": "Inclusive Light",
+                "inclusions": [
+                    "Unlimited mileage",
+                    "LDW – Loss Damage Waiver",
+                    "TPL – Third Party Liability",
+                    "Airport surcharge",
+                    "Local and state TAX",
+                    "First additional driver"
+                ]
+            },
+            "RateTotalAmount": 2465.9599248,
+            "EstimatedTotalAmount": 2465.9599248,
+            "irrf": 416.13073731,
+            "EstimatedTotalAmountPrepaid": 1997.427539088
+        },
+        "SC": {
+            "CurrencyCode": "R$",
+            "RateData": {
+                "name": "Inclusive + GPS"
+            },
+            "RateTotalAmount": 3249.31393611,
+            "EstimatedTotalAmount": 3249.31393611,
+            "irrf": 548.320683470625,
+            "EstimatedTotalAmountPrepaid": 2631.9392806590004
+        },
+        "4M": {
+            "CurrencyCode": "R$",
+            "RateData": {
+                "name": "Inclusive LDW",
+                "inclusions": [
+                    "Unlimited mileage",
+                    "LDW – Loss Damage Waiver",
+                    "First additional driver",
+                    "Unlimited mileage",
+                    "LDW – Loss Damage Waiver",
+                    "First additional driver"
+                ]
+            },
+            "RateTotalAmount": 1972.76793984,
+            "EstimatedTotalAmount": 2552.3130340800003,
+            "irrf": 434.59622580375003,
+            "EstimatedTotalAmountPrepaid": 2140.2885206520004
+        }
+    }
+}
